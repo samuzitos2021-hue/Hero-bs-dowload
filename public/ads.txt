@@ -1,0 +1,2 @@
+# ads.txt para Blood Strike Configs Pro
+google.com, pub-8ef074286e474161, DIRECT, f08c47fec0942fa0

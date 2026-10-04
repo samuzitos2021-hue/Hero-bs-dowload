@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR" style="background-color: #080a0f !important; color-scheme: dark !important;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Blood Strike Configs Pro</title>
+    <meta name="description" content="App definitivo de configurações para Blood Strike: Layouts de HUD interativos (2, 3, 4 e 5 dedos), Sensibilidades completas de TikTokers e criadores famosos com códigos para copiar, e Calculadora & Guias de Stretched Resolution (Tela Esticada) para PC e Mobile." />
+    <meta property="og:title" content="Blood Strike Configs Pro" />
+    <meta property="og:description" content="App definitivo de configurações para Blood Strike: Layouts de HUD interativos (2, 3, 4 e 5 dedos), Sensibilidades completas de TikTokers e criadores famosos com códigos para copiar, e Calculadora & Guias de Stretched Resolution (Tela Esticada) para PC e Mobile." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#080a0f" />
+    <meta name="msapplication-navbutton-color" content="#080a0f" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Hero bs studio" />
+    <style>
+      :root, html, body, #root {
+        background-color: #080a0f !important;
+        background: #080a0f !important;
+        color-scheme: dark !important;
+        color: #f1f5f9 !important;
+        min-height: 100vh;
+        overscroll-behavior: none !important;
+        overscroll-behavior-y: none !important;
+        -webkit-tap-highlight-color: transparent !important;
+      }
+      * {
+        -webkit-tap-highlight-color: transparent !important;
+      }
+    </style>
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Rajdhani:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#0b0e14] text-slate-100 antialiased selection:bg-red-500/30 selection:text-red-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/sw.js').catch(function() {});
+        });
+      }
+    </script>
+  </body>
+</html>
+

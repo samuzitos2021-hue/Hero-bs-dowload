@@ -1,0 +1,6 @@
+{
+  "name": "Blood Strike Configs Pro",
+  "description": "App definitivo de configurações para Blood Strike: Layouts de HUD interativos (2, 3, 4 e 5 dedos), Sensibilidades completas de TikTokers e criadores famosos com códigos para copiar, e Calculadora & Guias de Stretched Resolution (Tela Esticada) para PC e Mobile.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,3 @@
+# app-ads.txt para Blood Strike Configs Pro (com.strikeconfig.bloodstrike)
+# Google AdMob / Google Play Console Authorized Digital Sellers
+google.com, pub-8ef074286e474161, DIRECT, f08c47fec0942fa0
